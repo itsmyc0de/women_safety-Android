@@ -1,0 +1,23 @@
+<?xml version="" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Enter the Vehile Number.."
+      android:id="@+id/vechileno"
+      android:layout_centerInParent="true"
+      />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sent"
+        android:id="@+id/send_button"
+        android:layout_below="@+id/vechileno"
+        />
+
+</RelativeLayout>
